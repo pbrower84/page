@@ -39,3 +39,6 @@ a.masthead-nav-item:focus {
 .masthead-nav-item.active {
   font-weight: bold;
 }
+.masthead-nav-item::before {
+  content: "| ";
+}
