@@ -1,6 +1,7 @@
 <div class="masthead-menu">
     <nav class="masthead-nav">
         <a class="masthead-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+        <a>| </a><a class="masthead-nav-item" target="_blank" href="https://www.linkedin.com/in/patrickbrower">Linkedin</a>
 
         {% comment %}
         The code below dynamically generates a nav menu of pages with
@@ -11,7 +12,7 @@
             {% for node in pages_list %}
             {% if node.title != null %}
                 {% if node.layout == "page" %}
-                <a class="masthead-nav-item">| </a><a class="masthead-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{node.title}}</a>
+                <a>| </a><a class="masthead-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{node.title}}</a>
                 {% endif %}
             {% endif %}
         {% endfor %}
