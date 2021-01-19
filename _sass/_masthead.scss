@@ -21,3 +21,19 @@
     opacity: .5;
   }
 }
+
+/* Masthead nav */
+.masthead-nav {
+  margin-bottom: 1rem;
+}
+.masthead-nav-item {
+  display: block;
+  line-height: 1.75;
+}
+a.masthead-nav-item:hover,
+a.masthead-nav-item:focus {
+  text-decoration: underline;
+}
+.masthead-nav-item.active {
+  font-weight: bold;
+}
