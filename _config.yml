@@ -5,6 +5,7 @@ url: https://pbrower.com
 paginate: 1
 baseurl: ""
 permalink: pretty
+repo: https://github.com/pbrower84/page
 
 # Gems
 plugins:
@@ -38,4 +39,4 @@ author:
   email: patrick.brower@pm.me
 
 # Custom vars
-version: 3.0.0
+version: 1.0.0
